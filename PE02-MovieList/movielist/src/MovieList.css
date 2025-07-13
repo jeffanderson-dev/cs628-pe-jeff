@@ -1,0 +1,26 @@
+.movie-list-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.movie-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.movie-card {
+  background-color: #f0eed8; /* favorite color of mine */
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
